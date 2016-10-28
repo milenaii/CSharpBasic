@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Sum3Numbers
+class Sum3numbers
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+        int c = int.Parse(Console.ReadLine());
+        int d = a + b + c;
+        Console.WriteLine(d);
+
     }
 }
+
