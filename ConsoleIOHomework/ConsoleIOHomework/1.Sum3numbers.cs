@@ -9,6 +9,7 @@ class Sum3numbers
         int c = int.Parse(Console.ReadLine());
         int d = a + b + c;
         Console.WriteLine(d);
+        
     }
 }
 
