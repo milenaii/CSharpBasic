@@ -1,21 +1,33 @@
 ﻿using System;
+
 class Program
 {
     static void Main()
     {
-        int sum = 0;
-        for (int i = 1; i <= 5; i++)
+        Console.WriteLine("Enter an integer number N: ");
+        int N = int.Parse(Console.ReadLine());
+        if (!(1 <= N)^!(N <= 200))
         {
-            int a = int.Parse(Console.ReadLine());
-            if ((-1000 > a)^(a > 1000))
-            {
-                Console.WriteLine("Not valid number!");
-            }
-            else
-            sum = sum + a;
-
+            Console.WriteLine("Not valid number N!");
         }
-            Console.WriteLine("The sum is: {0} \n", sum);
+        else
+        {
+        float sum = 0.0F;
+        for (int i = 0; i < N; i++)
+        {
+            float num = float.Parse(Console.ReadLine());
+                if (!(- 1000 <= num)^!(num <= 1000))
+                {
+                    Console.WriteLine("Not valid number!");
+                    break;
+                }
+                else
+                {
+            sum = sum + num;
+                }
+        }
+        Console.WriteLine(sum);
+        }
     }
 }
 
