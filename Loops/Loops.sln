@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.HappyNumbers", "20.Happy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.JumpStatements", "21.JumpStatements\21.JumpStatements.csproj", "{9B1E6F93-637D-44E1-9E02-DE43E0DA7FE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toto6_49", "Toto6_49\Toto6_49.csproj", "{A145AD8C-8E14-4A39-A6AF-F433DAC7DBDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{9B1E6F93-637D-44E1-9E02-DE43E0DA7FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B1E6F93-637D-44E1-9E02-DE43E0DA7FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B1E6F93-637D-44E1-9E02-DE43E0DA7FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A145AD8C-8E14-4A39-A6AF-F433DAC7DBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A145AD8C-8E14-4A39-A6AF-F433DAC7DBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A145AD8C-8E14-4A39-A6AF-F433DAC7DBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A145AD8C-8E14-4A39-A6AF-F433DAC7DBDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
