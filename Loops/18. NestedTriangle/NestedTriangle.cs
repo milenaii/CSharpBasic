@@ -17,7 +17,8 @@ class NestedTriangle
                 Console.Write(column);
             }
 
-            Console.WriteLine();
+            Console.WriteLine(); // трябва ни за да мести
+            // числата по редовете
         }
     }
 }
