@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13a.MergeSortRecur", "13a.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.PrimeNumbers", "15.PrimeNumbers\15.PrimeNumbers.csproj", "{CFE77573-3248-4747-B299-A05A64C2BF3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.SubsetWithSumS", "16.SubsetWithSumS\16.SubsetWithSumS.csproj", "{8C758CA1-6996-400C-B1C9-4E9CDE33F262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.RemoveElementsFromArray", "18.RemoveElementsFromArray\18.RemoveElementsFromArray.csproj", "{11762C1B-C604-4184-B3A0-AA725CB6F965}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{CFE77573-3248-4747-B299-A05A64C2BF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFE77573-3248-4747-B299-A05A64C2BF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFE77573-3248-4747-B299-A05A64C2BF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C758CA1-6996-400C-B1C9-4E9CDE33F262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C758CA1-6996-400C-B1C9-4E9CDE33F262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C758CA1-6996-400C-B1C9-4E9CDE33F262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C758CA1-6996-400C-B1C9-4E9CDE33F262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11762C1B-C604-4184-B3A0-AA725CB6F965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11762C1B-C604-4184-B3A0-AA725CB6F965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11762C1B-C604-4184-B3A0-AA725CB6F965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11762C1B-C604-4184-B3A0-AA725CB6F965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
