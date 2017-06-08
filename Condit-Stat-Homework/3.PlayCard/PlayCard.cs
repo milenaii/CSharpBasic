@@ -13,7 +13,7 @@ class PlayCard
         string a = Console.ReadLine();
         if ((0 < a.Length) && (a.Length < 6))
         {
-            switch (a)
+            switch (a)  
             {
                 case "2":
                 case "3":
