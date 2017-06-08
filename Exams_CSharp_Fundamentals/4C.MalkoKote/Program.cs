@@ -1,4 +1,19 @@
 ﻿using System;
+//All input data is read from the standard input (the console). On the first line you will receive an integer S. The size of malko kote On the second line you will receive the character C with which you will have to print the kote
+//10
+//#
+//Sample Output 1
+
+// # #
+// ###
+//  #
+// ###
+// ###   ##
+//#####  #
+//#####  #
+//#####  #
+//##### ##
+// ######
 
 class Program
 {
@@ -50,7 +65,7 @@ class Program
         {
         Console.Write(new string(symbol, s/6 + 4));  
         Console.Write("  ");
-        Console.WriteLine("#");
+        Console.WriteLine(new string(symbol,1));
         }
         Console.Write(new string(symbol, s / 6 + 4));
         Console.Write(" ");

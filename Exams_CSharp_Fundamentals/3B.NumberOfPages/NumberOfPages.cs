@@ -1,10 +1,9 @@
 ﻿using System;
-//Write a program to find the number D(The total number of digits
-//in the page numbers is D.) by given number of pages (N).
+//Write a program to find the number D (The total number of digits in the page numbers is D.) by given number of pages (N).
 
 class NumberOfPages
 {
-    static void Main(string[] args)
+    static void Main()
     {
         int n = int.Parse(Console.ReadLine()); //pages
 

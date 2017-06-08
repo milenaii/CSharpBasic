@@ -42,7 +42,7 @@ class DrunkenNumbers
                 rightDigitsSum += currentDigit;
             }
 
-            if (numberOfDigits % 2 ==1) // odd number
+            if (numberOfDigits % 2 == 1) // odd number
             {
                 //We have a middle digit - add it to both sum
                 int middleDigit = currentDrNum % 10;

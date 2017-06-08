@@ -53,7 +53,7 @@ class Batman
         Console.WriteLine();
         Console.WriteLine();
         Console.WriteLine();
-        Console.WriteLine(7%3);
+        Console.WriteLine(7 % 3);
 
     }
 }

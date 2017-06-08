@@ -19,6 +19,7 @@ class TheSecretOfNumbers
         {
             int currentDigit = num % 10;
             currentDigitPosition++;
+
             if (currentDigitPosition % 2 == 1)
             {
                 specialSum += currentDigit * currentDigitPosition * currentDigitPosition;
