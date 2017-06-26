@@ -10,6 +10,7 @@ class Program
         for (int i = 0; i < 100; i++)
         {
             var newArray = new int[array.Length + 1];
+
             for (int j = 0; j < array.Length; j++)
             {
                 newArray[j] = array[j]; // копираме елем от единия в др

@@ -11,10 +11,8 @@ class ArrayString
         Console.WriteLine(mstr[i] + "default is null");
         }
 
-
         Console.WriteLine();
         Console.WriteLine();
-
 
         string[] week = { "Monday", "Tuesday", "Wednwsday", "Thurstday", "Friday", "Saturday", "Sunday"};
 
