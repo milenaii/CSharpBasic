@@ -13,7 +13,7 @@ class AllocateArray
         for (int i = 0; i < n; i++)
         {
             arr[i] = i * 5;
-        Console.WriteLine(arr[i]);
+            Console.WriteLine(arr[i]);
         }
     }
 }
